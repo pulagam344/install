@@ -4,7 +4,7 @@
 mkdir -p /root/node-1
 #
 # Clone repositories for node 1
-git clone https://github.com/pulagam344/1B.git /root/node-1
+git clone https://github.com/pulagam344/1A.git /root/node-1
 #
 # Install dependencies
 apt-get install -y libgomp1
