@@ -14,7 +14,7 @@ curl -sSfL 'https://raw.githubusercontent.com/GaiaNet-AI/gaianet-node/main/insta
 #
 # Set the environment path for node-1
 export PATH=$PATH:/root/node-1/bin
-/root/node-1/bin/gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json --base /root/node-1
+/root/node-1/bin/gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/llama-3.2-3b-instruct/config.json --base /root/node-1
 #
 # Configure the ports for both nodes
 /root/node-1/bin/gaianet config --port 8081 --base /root/node-1
