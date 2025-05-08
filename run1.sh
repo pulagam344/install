@@ -10,7 +10,7 @@ git clone https://github.com/pulagam344/1B.git /root/node-1
 apt-get install -y libgomp1
 #
 # Install Gaianet on node-1
-curl -sSfL 'https://raw.githubusercontent.com/GaiaNet-AI/gaianet-node/main/install.sh' | bash -s -- --base /root/node-1
+curl -sSfL 'https://raw.githubusercontent.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash -s -- --base /root/node-1
 #
 # Set the environment path for node-1
 export PATH=$PATH:/root/node-1/bin
